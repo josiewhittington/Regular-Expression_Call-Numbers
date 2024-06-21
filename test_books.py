@@ -3,7 +3,7 @@
 # in the following import statement, replace books with the name of your
 # script, minus the .py extension
 
-from regex_books.books import Book, read_books
+from books import Book, read_books
 import pytest
 
 def test_book_init():
