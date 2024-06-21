@@ -1,8 +1,5 @@
 """ Test call number script. """
 
-# in the following import statement, replace books with the name of your
-# script, minus the .py extension
-
 from books import Book, read_books
 import pytest
 
@@ -29,13 +26,13 @@ def test_book_lt():
     b2 = Book("D30.B17 D4 1950", "Book 2", "")
     b3 = Book("DA4.B17 D4 1950", "Book 3", "")
     b4 = Book("D290.B17 D4 1950", "Book 4", "")
-    b5 = Book("D290.C83 D4 1950", "Book 5", "") #this one    D290.C83 D4 1950
+    b5 = Book("D290.C83 D4 1950", "Book 5", "") 
     b6 = Book("D290.5.C83 D4 1950", "Book 6", "")
     b7 = Book("D290.49.C83 D4 1950", "Book 7", "")
     b8 = Book("D290.C824 D4 1950", "Book 8", "")
     b9 = Book("D290.C83 E4 1950", "Book 9", "")
     b10 = Book("D290.C83 D32 1950", "Book 10", "")
-    b11 = Book("D290.C83 1950", "Book 11", "") #this one    D290 .C83 1950
+    b11 = Book("D290.C83 1950", "Book 11", "")
     b12 = Book("D290 .C83 D4", "Book 12", "")
     b13 = Book("D290 .C83 D4 1972", "Book 13", "")
     b14 = Book("DAW290 .C83 D4 1972", "Book 13", "")
