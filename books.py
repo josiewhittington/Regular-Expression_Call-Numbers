@@ -5,7 +5,6 @@ from argparse import ArgumentParser
 import re
 import sys
 
-
 class Book:
     """
     Organizes books in a file by call number
